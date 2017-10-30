@@ -1,2 +1,4 @@
-# formacao_python
-Materiais de Estudo e Atividades relacionados ao curso Formação Python, da Code Experts Learning
+# Formação Python
+Repositório oficial de conteúdos relacionados ao curso Formação Python, da [Code Experts Learning](https://codeexpertslearning.com.br).
+
+* [Materiais de Estudos](/materiais_estudos/)
