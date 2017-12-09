@@ -8,4 +8,4 @@ def divide(x, y):
     finally:
         print("Executando o bloco finally")
 
-divide(2,2)
+# divide(2,2)

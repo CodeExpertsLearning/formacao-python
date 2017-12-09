@@ -8,19 +8,20 @@
 #     	print("\nVocê interrompeu a execução do programa!")
 #     	break
 
-
-
 # try:
 # 	file = open('file.txt')
 # 	s = file.readline()
 # 	i = int(s.strip())
-
+# 	file.close()
 # except IOError:
 # 	print("Arquivo não encontrado.")
+# except ValueError:
+# 	print("Arquivo vazio")
 
-try:
-	import banco
+# try:
+# 	import banco
 
-	conta = banco.ContaBancaria("2367", "4567-x")
-except ImportError:
-	print("Modulo banco não encontrado")
+# 	conta = banco.ContaBancaria("2367", "4567-x")
+# # exceção gerada ao tentar abrir módulo/package que não existe
+# except ImportError:
+# 	print("Modulo banco não encontrado")

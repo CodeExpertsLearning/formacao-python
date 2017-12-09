@@ -8,5 +8,6 @@ carrinho = Carrinho()
 carrinho.addProduto(prod1)
 carrinho.addProduto(prod2)
 
+print("Valor total sem desconto: %.2f" % carrinho.valorTotal)
 carrinho.aplicarDesconto(DescontoNatal())
-print("Valor total: R$ %.2f" % carrinho.valorTotal)
+print("Valor total depois do desconto: R$ %.2f" % carrinho.valorTotal)
