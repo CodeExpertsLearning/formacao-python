@@ -31,7 +31,7 @@ class ContaBancaria:
     def saque(self, value:float):
         if (self.__saldo < value):
             raise Exception("Saldo insuficiente")
-        
+
         self.__saldo -= value
         return True
 
