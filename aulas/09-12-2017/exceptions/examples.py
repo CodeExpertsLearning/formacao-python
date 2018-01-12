@@ -11,7 +11,7 @@
 # try:
 # 	file = open('file.txt')
 # 	s = file.readline()
-# 	i = int(s.strip())
+# 	# i = int(s.strip())
 # 	file.close()
 # except IOError:
 # 	print("Arquivo não encontrado.")

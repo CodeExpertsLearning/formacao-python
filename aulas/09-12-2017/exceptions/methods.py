@@ -8,5 +8,5 @@ def propagarExcecao():
 
 try:
 	propagarExcecao()
-except MyException as exc:
+except Exception as exc:
 	print(exc)

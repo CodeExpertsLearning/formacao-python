@@ -44,15 +44,17 @@ class ContaBancaria:
 
 class ContaCorrente(ContaBancaria):
 
-    def __init__(self, agencia:str, conta:str, cliente):
+    def __init__(self, agencia: str, conta: str, cliente):
         super().__init__(agencia, conta)
-        self__cliente = cliente
+        self.__cliente = cliente
 
 class ContaPoupanca(ContaBancaria):
 
+    quant = 0
     def __init__(self, agencia:str, conta:str, cliente):
         super().__init__(agencia, conta)
-        self__cliente = cliente
+        self.__cliente = cliente
+        ContaPoupanca.quant += 1
 
     def saque(self, valor:float):
         raise Exception("Você não pode efetuar saque")
@@ -77,7 +79,7 @@ class Banco:
 
     nome = property(fget=getNome, fset=setNome)
 
-conta1 = ContaCorrente("2348", "4567-3", "Pedro")
+conta1 = ContaCorrente(2348, "4567-3", "Pedro")
 conta2 = ContaPoupanca("2389", "4567-8", "Joao")
 
 conta1.deposito(500)

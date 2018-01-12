@@ -1,7 +1,7 @@
 def divide(x, y):
     try:
         result = x/y
-    except ZeroDivisionError:
+    except Exception:
         print("Divisão por zero!")
     else:
         print("Resultado:", result)
