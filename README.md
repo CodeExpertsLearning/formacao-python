@@ -39,7 +39,7 @@ Conjunto de materiais, cursos e vídeo-aulas para ajudar os alunos no aprendizad
 * [Pense em Python](https://penseallen.github.io/PensePython2e/)
 * [Test-Driven Web Development With Python, the book](https://github.com/hjwp/Book-TDD-Web-Dev-Python/)
 
-## Poadcasts
+## Podcasts
 
 * [O’Reilly Programming](https://www.oreilly.com/topics/oreilly-programming-podcast)
 
